@@ -95,9 +95,9 @@ public class Person {
 
 8. What is/are the advantage(s) of using composition?
 
-Reuse existing code
-Design clean APIs
-Change the implementation of a class used in a composition without adapting any external clients
+*Reuse existing code
+*Design clean APIs
+*Change the implementation of a class used in a composition without adapting any external clients
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
 

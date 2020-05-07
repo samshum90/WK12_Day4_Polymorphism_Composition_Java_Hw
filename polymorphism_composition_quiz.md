@@ -7,6 +7,7 @@
 Polymorphism is the ablity of an object to take on many forms.
 
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+
 Implementation of polymorphism in java is when we use the same method in different ways 
 
 ```java
@@ -61,6 +62,7 @@ Shop could use to group objects which you can buy or items you can read, sell an
 It describes a class that references one or more objects of other classes in instance variables. This allows you to model a "has-a" association between objects. For example, a car has an engine and modern coffee machines often have an integrated grinder and a brewing unit.
 
 7. When would you use composition? Provide a simple example in Java.
+
 Composition is used in the place of inheritance for example, a car is not an engine; it has one. And a coffee machine has a grinder and a brewing unit, but it is none of them.
 Person has a job:
 
@@ -89,12 +91,14 @@ public class Person {
 
 }
 
-```java
+```
 
 8. What is/are the advantage(s) of using composition?
+
 Reuse existing code
 Design clean APIs
 Change the implementation of a class used in a composition without adapting any external clients
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
+
 If the composite object is destroyed, all the component parts must be destroyed.

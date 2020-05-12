@@ -18,14 +18,14 @@ public class Animal{
    }
 }
 
-public class Dog extends Animal{
+public class Dog extends Animal implements ISound{
 
     public void sound(){
         System.out.println("Bark!");
     }
 }
 
-public class Cat extends Animal{
+public class Cat extends Animal implements ISound{
 
     public void sound(){
         System.out.println("Meow");

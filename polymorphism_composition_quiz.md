@@ -13,27 +13,27 @@ Implementation of polymorphism in java is when we use the same method in differe
 ```java
 public class Animal{
 
-   public void sound(){
+   public void call(){
       System.out.println("Animal is making a sound");   
    }
 }
 
-public class Dog extends Animal implements ISound{
+public class Dog extends Animal implements ICall{
 
-    public void sound(){
+    public void call(){
         System.out.println("Bark!");
     }
 }
 
-public class Cat extends Animal implements ISound{
+public class Cat extends Animal implements ICall{
 
-    public void sound(){
-        System.out.println("Meow");
+    public void call(){
+        System.out.println("Meow!");
     }
 }
 ```
 
-The method sound is a common action to all the animal subclasses but how the action is performed is diffrent as each animal gives a different sound.
+The method call is a common action to all the animal subclasses but how the action is performed is diffrent as each animal gives a different sound.
 
 3. What can we use to implement polymorphism in Java?
 

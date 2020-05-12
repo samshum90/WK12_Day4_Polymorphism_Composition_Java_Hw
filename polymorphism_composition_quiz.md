@@ -4,7 +4,7 @@
 
 1. What does the ___word___ 'polymorphism' mean?
 
-Polymorphism is the ablity of an object to take on many forms.
+Polymorphism is the ability of an object to take on many forms.
 
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 
